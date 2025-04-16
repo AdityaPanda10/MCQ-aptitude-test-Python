@@ -1,0 +1,37 @@
+Project Description:
+
+This is an MCQ test application designed for students to test their knowledge in Python programming. The app uses Tkinter for the user interface and MySQL for storing user data and test scores. The process involves:
+
+    Registration: The user enters their details like Name, Student ID, and Roll Number.
+
+    Test Interface: The test starts with a set of multiple-choice questions. The user answers each question, and their selections are tracked.
+
+    Score Calculation: After all questions are answered, the application calculates the score and stores it in a MySQL database.
+
+    Results Display: The final score is displayed to the user.
+
+Key Features:
+
+    Student Registration: Allows students to register by providing their Name, Student ID, and Roll Number.
+
+    Test Functionality: Presents multiple-choice questions and records answers.
+
+    Database Integration: Saves student data and test scores in MySQL.
+
+    Result Display: Shows the final score after completing the test.
+
+Technologies Used:
+
+    Python: The primary language for developing the application.
+
+    Tkinter: Used to create the GUI (Graphical User Interface).
+
+    MySQL: Used to store student data and scores.
+
+How it Works:
+
+    Registration: When the user registers, their details are saved in a MySQL database.
+
+    MCQ Test: The test consists of multiple questions, each with four options. The user's selections are saved and scored.
+
+    Score Submission: After completing the test, the score is submitted to the database, and the result is displayed.
